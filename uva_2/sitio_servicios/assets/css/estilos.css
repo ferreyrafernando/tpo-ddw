@@ -1,0 +1,75 @@
+.la_fundacion {
+    color: #C8446A;
+}
+
+.aqua_section {
+    background-color: #FFF8E5;
+}
+
+section {
+    padding: 20px 80px;
+}
+
+.image_header {
+    width: 378px;
+    height: 374px;
+}
+
+.card {
+    width: 50%;
+    border-radius: 3%;
+    background-color: #FFF8E5;
+    padding: 60px 60px;
+}
+
+.titulo_card_propuesta {
+    text-align: center;
+}
+
+.card_servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img_card {
+    width: 50%;
+    margin-left: 0;
+}
+
+#contacto {
+    padding: 40px 80px 20px;
+}
+
+@media (max-width: 550px) {
+    section {
+        padding: 10px 20px;
+    }
+
+    .image_header {
+        display: none;
+    }
+
+    .cards {
+        gap: 30px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card_servicios {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card_precios {
+        text-align: center;
+    }
+
+    #contacto {
+        padding: 30px 40px 5px;
+    }
+    
+}
+
